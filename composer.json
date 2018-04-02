@@ -4,7 +4,7 @@
     "require": {
     },
     "type": "library",
-    "version": "0.00.016",
+    "version": "0.00.001",
     "authors": [
         {
             "name": "Tim Gavin",
@@ -19,9 +19,8 @@
         }
     ],
     "autoload": {
-        "classmap": [""],
-        "psr-4": {
-            "formr\\": ""
-        }
+        "files": [
+            "class.formr.php"
+        ]
     }
 }
