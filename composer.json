@@ -1,0 +1,28 @@
+{
+    "name": "xlad/Formr",
+    "description": "Formr is a PHP micro-framework which installs easily and helps you build, layout and validate forms quickly, painlessly, and without all the complicated, messy overhead.",
+    "require": {
+    },
+    "type": "library",
+    "version": "0.00.016",
+    "authors": [
+        {
+            "name": "Tim Gavin",
+            "email": "",
+            "homepage": "http://formr.github.io/",
+            "role": "Original Author"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/xlad/Formr"
+        }
+    ],
+    "autoload": {
+        "classmap": [""],
+        "psr-4": {
+            "formr\\": ""
+        }
+    }
+}
